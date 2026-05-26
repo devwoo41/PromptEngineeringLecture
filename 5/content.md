@@ -10,6 +10,8 @@
     => How similar the vectors are in terms of their direction, regardless of their magnitude. (코사인 유사도에서 중요한 것은 두개의 벡터가 방향성이 같을 수록 크다는 것이다.)
     ```
     cos(theta) = (A · B) / (||A|| ||B||)
+
+    -> ||A|| ||B|| 얘로 나눠주는 이유는 벡터의 크기(길이)의 영향을 제거하고, 방향만 비교하기 위해서이다.
     ```
 
 #### Word Embedding types : Context independent & Context dependent
